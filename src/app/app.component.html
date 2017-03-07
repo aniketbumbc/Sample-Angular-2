@@ -2,3 +2,28 @@
   {{title}}
 </h1>
 
+<app-hello></app-hello>
+<app-hello>
+  <div class="Div1">
+    <h1 align="center"> Hello Form Div </h1>
+  </div>
+
+
+</app-hello>
+<app-hello>
+  <div>
+    <h1> Hello Form Div2</h1>
+  </div>
+
+</app-hello>
+
+<p [ngStyle]="{color:'green'}"> This is Style implementation property binding </p>
+<p [ngClass]="{redborder:true}"> App Get Border Me</p>
+
+<h3 align="center"> Custome property Binding </h3>
+<app-custom [rollnumber]="2323"></app-custom> <!-- outside property binding-->
+<h2 align="center"> Event binding implemention for Button </h2>
+<app-event-b></app-event-b>
+
+<hr>
+<app-twoway></app-twoway>
